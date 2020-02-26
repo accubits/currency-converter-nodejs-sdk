@@ -1,6 +1,6 @@
 {
   "name": "@accubits/currency-converter",
-  "version": "1.0.0",
+  "version": "0.0.02",
   "description": "",
   "main": "index.js",
   "scripts": {

@@ -36,7 +36,7 @@ Example : Convert 200 USD to INR
 
 ````javascript
 	let converter = require('@accubits/currency-converter')
-	converter.exchange('USD','INR',200).then(res=>{  
+	converter.convert('USD','INR',200).then(res=>{  
     console.log(res)  
 })
 ````

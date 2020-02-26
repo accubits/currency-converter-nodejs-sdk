@@ -13,7 +13,7 @@ module.exports = {
         }
     },
 
-    exchange: async (from, to, value) => {
+    convert: async (from, to, value) => {
         try {
 
             let data = await getData();
@@ -26,9 +26,4 @@ module.exports = {
 };
 
 
-// module.exports.getCurrencies().then(res=>{
-//     console.log(res)
-// })
-module.exports.exchange('USD','INR',200).then(res=>{
-    console.log(res)
-})
+;
